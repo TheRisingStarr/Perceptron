@@ -10,4 +10,3 @@ class Perceptron:
 
     def activation(self,z):
         return max(0,z)
-    
