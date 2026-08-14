@@ -5,4 +5,5 @@ class Perceptron:
         self.weights=None
         self.bias=None
 
-
+    def pre_activation(self,x):
+        return np.dot(self.weights,x)+self.bias
